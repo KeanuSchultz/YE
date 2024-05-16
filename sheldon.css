@@ -1,0 +1,63 @@
+body {
+  background-color: beige;
+  flex-direction: column;
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+}
+
+.ye {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.ye1 {
+  float: left;
+}
+
+.ye2 {
+  float: right;
+}
+.ye3 {
+  float: left;
+}
+
+.ye4 {
+  float: right;
+}
+
+.tile-ye {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+@media (max-width: 680px) {
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .ye {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .ye img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
